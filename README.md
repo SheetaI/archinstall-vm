@@ -26,10 +26,10 @@ My personal automated arch linux installation script for "Virtual Machine".
 
  - **Login and run:**
  
-   `sudo mv /sheetal.sh $HOME`
-   
-   `bash sheetal.sh`
-    
+    `bash /sheetal.sh`
+ 
+ - **It will tell you to reboot when its finished installing everything .**    
+ 
  - **Done!**
  
  ---
