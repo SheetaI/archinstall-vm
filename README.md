@@ -4,14 +4,14 @@ My personal automated arch linux installation script for "Virtual Machine".
  - **Pre-requisites:**
 `Arch Linux ISO` | `Internet Connection` | `Virtual Machine [qemu/virtualbox/vmware]` |
 
-| Part | Script | Description | Attention | Status | 
+| Part | Script | Description | Attention | Status |
 :-- | :--: | :--: | :--: | :--: |
-#1 | **base.sh** & **base2.sh** | installs the base system | prompts user & password creation at the end | Working |
-#2 | **sheetal.sh** | installs my choice of pkgs & dotfiles | unattended install, you can grab a coffee! | Working |
+#1 | **base.sh** & **base2.sh** | installs arch linux base system  | Only prompts for user & pass at the end | Working |
+#2 | **sheetal.sh** | installs my choice of pkgs & dotfiles | Completely Unattended | Working |
 
  ---
 # ⚙️ installation
-**Part: #1**
+**Part: #1** 
  - **Boot the ISO & run:**
 
     `pacman -Syy && pacman -S git`
@@ -20,7 +20,7 @@ My personal automated arch linux installation script for "Virtual Machine".
     
     `bash base.sh`
     
-  - **Reboot the system**  
+  - **Note:** You will need to input user & pass at the end of installation.
     
 **Part: #2**
 
@@ -32,6 +32,3 @@ My personal automated arch linux installation script for "Virtual Machine".
  
  - **Done!**
  
- ---
- **Todo:**
-- Work on unattended installation **dev-sheetal.sh**
