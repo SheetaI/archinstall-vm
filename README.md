@@ -21,6 +21,8 @@ My personal automated arch linux installation script for "Virtual Machine".
     `bash base.sh`
     
   - **Note:** You will need to input user & pass at the end of installation.
+  
+  - **Reboot**
     
 **Part: #2**
 
