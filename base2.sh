@@ -3,6 +3,7 @@
 echo "-------------------------------------------------"
 echo "     Configuring: Timezone | Locale | Host | Hostname"
 echo "-------------------------------------------------"
+sleep 3
 # Timezone | Locale | Host | Hostname #
 ln -sf /usr/share/zoneinfo/Asia/Manila /etc/localtime
 hwclock --systohc											
@@ -20,6 +21,7 @@ EOF
 echo "-------------------------------------------------"
 echo "     Installating Addition Pkgs"
 echo "-------------------------------------------------"
+sleep 3
 addpkgs="networkmanager git go reflector bash-completion"
 
 while ! pacman -Syuw --noconfirm ${addpkgs}; do
@@ -32,6 +34,7 @@ clear
 echo "-------------------------------------------------"
 echo "     Setting systemd Bootloader"
 echo "-------------------------------------------------"
+sleep 3
 bootctl --path=/boot install
 
 cat <<EOF > /boot/loader/loader.conf
@@ -52,11 +55,13 @@ EOF
 echo "-------------------------------------------------"
 echo "     Enabling Internet Connection"
 echo "-------------------------------------------------"
+sleep 3
 systemctl enable NetworkManager	
 
 echo "-------------------------------------------------"
 echo "    Setting User Account"
 echo "-------------------------------------------------"
+sleep 3
 # User & Password Setup #
 read -p "Enter username: " user
 useradd -m $user
