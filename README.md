@@ -28,7 +28,7 @@ My personal automated arch linux installation script for "Virtual Machine".
  
     `bash /sheetal.sh`
  
- - **It will tell you to reboot when its finished installing everything .**    
+ - **Note:** It will tell you to reboot when its finished installing everything .   
  
  - **Done!**
  
