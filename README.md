@@ -16,7 +16,7 @@ My personal automated arch linux installation script for "Virtual Machine".
 
     `pacman -Syy && yes | pacman -S git`
 
-    `git clone https://github.com/SheetaI/archinstall-vm && cd archinstall`
+    `git clone https://github.com/SheetaI/archinstall-vm && cd archinstall-vm`
     
     `bash base.sh`
     
