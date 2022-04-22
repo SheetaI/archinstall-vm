@@ -33,5 +33,5 @@ My personal automated arch linux installation script for "Virtual Machine".
  - **Done!**
  
 # Important:
-  This installer is designed to autoloop download of packages if you encountered some errors or internet disconnection while installing.
+  This installer is designed to autoloop download of packages if you encountered some errors like disconnections while installing.
  
