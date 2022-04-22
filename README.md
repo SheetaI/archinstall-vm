@@ -11,7 +11,7 @@ My personal automated arch linux installation script for "Virtual Machine".
 
  ---
 # ⚙️ installation
-**Part: #1** 
+**Part #1:** 
  - **Boot the ISO & run:**
 
     `pacman -Syy && pacman -S git`
@@ -24,13 +24,13 @@ My personal automated arch linux installation script for "Virtual Machine".
   
   - **Reboot**
     
-**Part: #2**
+**Part #2:** Setup preview here: https://github.com/SheetaI/dotfiles
 
  - **Login and run:**
  
     `bash /sheetal.sh`
  
- - **Note:** It will tell you to reboot when its finished installing everything .   
+ - **Note:** It will tell you to reboot when its finished.   
  
  - **Done!**
  
