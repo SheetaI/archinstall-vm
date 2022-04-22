@@ -22,8 +22,7 @@ echo "-------------------------------------------------"
 sleep 3
 # Partition: For Virtual Machine #
 yes | echo -e "o\ny\nn\n \n \n+100M\nef00\nn\n \n \n+4G\n8200\nn\n \n \n \n8300\nw\ny" | gdisk /dev/vda
-
-sclear 
+clear 
 
 echo "-------------------------------------------------"
 echo "     Formatting Virtual Drive"
