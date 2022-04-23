@@ -1,8 +1,7 @@
 # archinstall-vm
-My personal automated arch linux installation script for "Virtual Machine".
+My Personal Unattended "Arch Linux" Installer Script for "Virtual Machines".
 
- - **Pre-requisites:**
-`Arch Linux ISO` | `Internet Connection` | `Virtual Machine [qemu/virtualbox/vmware]` |
+
 
 | Part | Script | Description | Attention | Status |
 :-- | :--: | :--: | :--: | :--: |
@@ -11,6 +10,10 @@ My personal automated arch linux installation script for "Virtual Machine".
 
  ---
 # ⚙️ installation
+
+ - **Pre-requisites:**
+`Arch Linux ISO` | `Internet Connection` | `Virtual Machine [qemu/virtualbox/vmware]` |
+
 **Part #1:** 
  - **Boot the ISO & run:**
 
