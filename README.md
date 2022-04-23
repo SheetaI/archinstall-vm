@@ -1,5 +1,5 @@
 # archinstall-vm
-My Personal Unattended "Arch Linux" Installer Script for "Virtual Machines".
+My Personal Unattended "Arch Linux" Installer Script for "VM's".
 
 
 
