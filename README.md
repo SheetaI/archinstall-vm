@@ -28,7 +28,7 @@ My Personal Unattended "Arch Linux" Installer Script for "VM's".
     
  - **Note:** Requires to input user & password at the end of installation.
     
-**Part #2:** Setup preview here: https://github.com/SheetaI/dotfiles
+**Part #2:** [Click here to preview my setup](https://github.com/SheetaI/dotfiles)
 
  - **Login and run:**
  
