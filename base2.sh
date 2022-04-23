@@ -70,9 +70,11 @@ sed -i '/%wheel/s/^#//' /etc/sudoers
 read -p "Enter password: " pass
 echo -e "$pass\n$pass" | passwd $user
 passwd -l root
+sleep 3
 
 ## End ##
 echo "-------------------------------------------------------------------"
 echo "Base System Installation Finished...Reboot Now"
 echo "-------------------------------------------------------------------"
+sleep 3
 exit
