@@ -8,8 +8,8 @@ My Personal Unattended "Arch Linux" Installer Script for "VM's".
 
 | Part | Script | Description | Attention | Status |
 :-- | :--: | :--: | :--: | :--: |
-#1 | **base.sh** & **base2.sh** | installs arch linux base system  |only prompts for user & password | Working |
-#2 | **sheetal.sh** | installs my choice of pkgs & dotfiles | Completely Unattended | Working |
+#1 | **base.sh** & **base2.sh** | installs arch linux base system  |only prompts for user & password | working |
+#2 | **sheetal.sh** | installs my choice of pkgs & dotfiles | completely unattended | working |
 
  ---
 # ⚙️ installation
