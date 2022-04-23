@@ -12,7 +12,7 @@ My Personal Unattended "Arch Linux" Installer Script for "Virtual Machines".
 # ⚙️ installation
 
  - **Pre-requisites:**
-`Arch Linux ISO` | `Internet Connection` | `Virtual Machine [qemu/virtualbox/vmware]` |
+`Arch Linux ISO` | `Internet Connection` | `Virtual Machine [qemu/virtualbox/vmware]` 
 
 **Part #1:** 
  - **Boot the ISO & run:**
