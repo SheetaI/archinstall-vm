@@ -23,9 +23,9 @@ My Personal Unattended "Arch Linux" Installer Script for "Virtual Machines".
     
     `bash base.sh`
     
-  - **Note:** You will need to input user & pass at the end of installation.
+ - **Note:** You will need to input user & pass at the end of installation.
   
-  - **Reboot**
+ - After the first reboot, you now have a basic arch linux system. You have the freedom to install your own de, pkgs, etc. If you want to replicate my personal setup, proceed to part #2.
     
 **Part #2:** Setup preview here: https://github.com/SheetaI/dotfiles
 
