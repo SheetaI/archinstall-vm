@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "-------------------------------------------------"
-echo "    SHEETAL'S SYSTEM PERSONALIZATION"
+echo "    SYSTEM PERSONALIZATION"
 echo "-------------------------------------------------"
 
 echo "-------------------------------------------------"
@@ -59,7 +59,7 @@ echo "     Installing St Terminal"
 echo "-------------------------------------------------"
 sleep 3
 cd ${HOME}
-git clone "https://github.com/SheetaI/st.git"
+git clone "https://github.com/devjessah/st.git"
 cd ${HOME}/st
 sudo make install
 clear
@@ -71,7 +71,7 @@ sleep 3
 cd $HOME
 echo "alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'" >> .bash_aliases
 echo "dotfiles" >> .gitignore
-git clone --bare https://github.com/SheetaI/dotfiles.git $HOME/dotfiles
+git clone --bare https://github.com/devjessah/dotfiles.git $HOME/dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
 # remove duplicates before checkout
@@ -139,8 +139,8 @@ echo "-------------------------------------------------"
 echo "     Enabling User Autologin"
 echo "-------------------------------------------------"
 sudo groupadd -r autologin
-sudo gpasswd -a sheetal autologin
-sudo sed -i "s/^#autologin-user=$/autologin-user=sheetal/" /etc/lightdm/lightdm.conf
+sudo gpasswd -a jessah autologin
+sudo sed -i "s/^#autologin-user=$/autologin-user=jessah/" /etc/lightdm/lightdm.conf
 sudo sed -i "s/^#autologin-user-timeout=0$/autologin-user-timeout=0/" /etc/lightdm/lightdm.conf
 clear
 
