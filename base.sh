@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "-------------------------------------------------"
-echo "    SHEETAL'S BASE SYSTEM UNATTENDED INSTALLATION"
+echo "     BASE SYSTEM INSTALLATION SCRIPT"
 echo "-------------------------------------------------"
 
 echo "-------------------------------------------------"
