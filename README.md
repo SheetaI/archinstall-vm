@@ -22,13 +22,13 @@ My Personal Unattended "Arch Linux" Installer Script for "VM's".
 
     `pacman -Syy && yes | pacman -S git`
 
-    `git clone https://github.com/SheetaI/archinstall-vm && cd archinstall-vm`
+    `git clone https://github.com/devjessah/archinstall-vm && cd archinstall-vm`
     
     `bash base.sh`
     
  - **Note:** Requires to input user & password at the end of installation.
     
-**Part #2:** [Click here to preview my setup](https://github.com/SheetaI/dotfiles)
+**Part #2:** [Click here to preview my setup](https://github.com/devjessah/dotfiles)
 
  - **Login and run:**
  
